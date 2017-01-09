@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Playground",
+  "scripts": {
+    "dev": "cd packages/web && npm run dev",
+    "build": "lerna run build",
+    "start": "lerna run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slorber/playground.git"
+  },
+  "author": "Sébastien Lorber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slorber/playground/issues"
+  },
+  "homepage": "https://github.com/slorber/playground#readme",
+  "devDependencies": {
+    "lerna": "2.0.0-beta.32"
+  }
+}
